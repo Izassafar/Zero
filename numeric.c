@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-	int num;
+	char num;
 	printf("Enter the Input:");
-	scanf("%d",&num);
+	scanf("%c",&num);
 	if(num>=0&&num<=9)
 	{
 		printf("Yes");
