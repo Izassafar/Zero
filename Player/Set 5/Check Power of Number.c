@@ -7,7 +7,7 @@ void main()
 	printf("Enter the K term:");
 	scanf("%d",&k);
 	d=n/k;
-	if(d==k)
+	if(d%k==0)
 	 printf("Yes");
 	else
 	 printf("No");
