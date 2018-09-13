@@ -24,11 +24,11 @@ int Max_number_form(int n,int b[])
     while(i<n)
     {
         max=max+b[i]*(pow(10,d));
-        printf("%d ",max);
+        //printf("%d ",max);
         i++;
         d--;
     }
-    //printf("%d",max);
+    printf("%d",max);
 }
 int main()
 {
